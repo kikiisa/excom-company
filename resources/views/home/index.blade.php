@@ -57,7 +57,7 @@
         <div class="hero-container" data-aos="zoom-in" data-aos-delay="100">
             <h1 class="mb-4 pb-0"><br><span>Executive</span>Computer</h1>
             <p class="mb-4 pb-0">Executive Computer / Indonesia - Gorontalo</p>
-            <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox play-btn mb-4"></a>
+            <a href="" class="glightbox play-btn mb-4"></a>
         </div>
     </section><!-- End Hero Section -->
 
@@ -242,7 +242,7 @@
                 &copy; Copyright <strong>Executive Computer</strong>. All Rights Reserved
             </div>
             <div class="credits">
-                Designed by <a href="https://bootstrapmade.com/">Executive Computer</a>
+                Designed by <a href="/">Executive Computer</a>
             </div>
         </div>
     </footer>

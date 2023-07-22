@@ -11,7 +11,9 @@
 |
 */
 
+use App\Http\Controllers\account\LaporanDebitController;
 use App\Http\Controllers\LandingController;
+use App\Http\Controllers\LaporanController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -23,6 +25,7 @@ Auth::routes();
  */
 
 Route::get('/',[LandingController::class,'index'])->name("home");
+// Route::get('/testing',[LaporanDebitController::class,'rekapExcel'])->name('rekap');
 
 Route::prefix('account')->group(function () {
 

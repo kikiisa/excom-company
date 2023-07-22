@@ -31,14 +31,17 @@
                                 <div class="col-md-2" style="text-align: center">
                                     <label style="margin-top: 38px;">S/D</label>
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-md-2">
                                     <div class="form-group">
                                         <label>TANGGAL AKHIR</label>
                                         <input type="text" name="tanggal_akhir" value="{{ old('tanggal_kahir') }}" class="form-control datepicker">
                                     </div>
                                 </div>
                                 <div class="col-md-2">
-                                    <button class="btn btn-primary mr-1 btn-submit btn-block" type="submit" style="margin-top: 30px"><i class="fa fa-filter"></i> FILTER</button>
+                                    <button class="btn btn-primary mr-1 btn-submit btn-block" name="action" value="view" type="submit" style="margin-top: 30px"><i class="fa fa-filter"></i> FILTER</button>
+                                </div>
+                                <div class="col-md-2">
+                                    <button class="btn btn-primary mr-1 btn-submit btn-block" name="action" value="rekap" type="submit" style="margin-top: 30px"><i class="fa fa-print"></i> REKAP EXCEL</button>
                                 </div>
                             </div>
                         </form>
